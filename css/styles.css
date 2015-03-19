@@ -8,7 +8,7 @@ HeilPractice
 body {
 	font-family: 'Montserrat', sans-serif;
 	
-
+	
 
 	
 }
@@ -26,6 +26,7 @@ h1,h2,h3,h4,h5,h6,p,b,a,li,button {
 	
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+	
 	}
 
 h1,h2 {
@@ -126,11 +127,11 @@ padding-bottom: 10px;
 				margin-left: 0%;
 				width: 100px;}
 }
-@media (min-width: 970px) /* medium  */{
+@media (min-width: 1000px) /* medium  */{
 	#logo img {	margin-top: -40%;
 				margin-left: -10%;}
 }
-@media (min-width: 1170px) /* large */ {
+@media (min-width: 1200px) /* large */ {
 	#logo img {	margin-top: -35%;
 				margin-left: 15%;}
 				
@@ -236,9 +237,6 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
 .navbar-default .navbar-nav > li > a {
     color: #492b09;
     
-    background: rgba(194, 127, 202, 0.12);  
-	background-clip: content-box;
-	border-radius: 10px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -365,12 +363,18 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
 
 }
 
+#welcome h2, #welcome p {
+		color: rgba(80, 49, 25, 1);
+
+}
+
 
 
 /* CAROUSEL! */
 /* Outer Most */
 .carousel .slide {
 	}
+	
 #myCarousel {
 	background: -webkit-radial-gradient(rgba(88,32,10,0.33) 27.48%, rgba(248, 242, 48, 0.38) 40.99%, rgba(93,38,17,0.33) 73%);
 
@@ -450,14 +454,18 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
 
 }
 		
-@media (max-width: 1000px) {
+@media (max-width: 770px) {
 .item .carousel-caption p {
 	position: relative;
-
-	margin-top: 65%;
-
+	margin-top: 50%;}
 }
+
+@media (max-width: 500px) {
+.item .carousel-caption p {
+	position: relative;
+	margin-top: 70%;}
 }
+
 
 
 /*     <!-- Left and right controls --> */
@@ -486,12 +494,76 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
 
 /* Panels */
 
+.panel-therapie {background: rgba(144, 229, 97, 0.3);}
+.panel-therapie h4 {color: rgba(51, 89, 31, 1);}
+
+.panel-praxis {background: rgba(255, 173, 140, 0.3);}
+.panel-praxis h4 {color: rgba(151, 98, 76, 1);}
+
+
+.panel-infothek {background: rgba(174, 180, 80, 0.3);}
+.panel-infothek h4 {color: rgba(76, 80, 34, 1);}
+
+.panel-ausbildung{background: rgba(151, 100, 165, 0.33);}
+.panel-ausbildung h4 {color: rgba(86, 56, 95, 1);}
+
+.panel-fb {background: rgba(72, 135, 244, 0.39);}
+.panel-fb {color: rgba(26, 55, 104, 1);}
+
+/* tiny interaction */
+
+.panel-therapie:hover { 
+	 -ms-transform: rotate(1deg); /* IE 9 */
+    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+    transform: rotate(1deg);
+}
+.panel-praxis:hover { 
+	 -ms-transform: rotate(-1deg); /* IE 9 */
+    -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+    transform: rotate(-1deg);
+}
+.panel-infothek:hover { 
+	 -ms-transform: rotate(-1deg); /* IE 9 */
+    -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+    transform: rotate(-1deg);
+}
+.panel-ausbildung:hover { 
+	 -ms-transform: rotate(1deg); /* IE 9 */
+    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+    transform: rotate(1deg);
+}
+.panel-fb:hover { 
+	 -ms-transform: rotate(-1deg); /* IE 9 */
+    -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+    transform: rotate(-1deg);
+}
+
+
+.panel {
+	box-shadow: 4px 4px 10px 5px rgba(97, 104, 28, 0.45);
+	
+	border-bottom-right-radius: 10%
+}
+
+.panel-heading {
+	background: url('http://api.thumbr.it/whitenoise-361x370.png?background=ba9c1314&noise=e6c163&density=63&opacity=44');	
+	padding-top: 10px;
+	padding-bottom: 5px;
+
+}
+
+.panel-heading h4 {
+	font-size: 1.7em;
+}
+
 .panel-body {
-	background: url("../img/tree_bark.png");
+	background: url("../img/linedpaper_half.png");
 }
 
 .panel-body p {
 	text-align: left;
+	color: rgba(80, 49, 25, 1);
+
 }
 
 .panel-body img {
@@ -503,11 +575,30 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
 }
 
 .panel-body .btn {
-	margin-left: 30%;
+
+
+	width: 100%;
+	
+	padding-left: 30%;
+	padding-right: 30%;
+	
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=f98149bf&noise=edc31a&density=65&opacity=36');
+		
 }
+
+.panel-body a.btn{
+  
+  font-weight: 600;
+  color: #4972b9;
+  
+  font-size: 1.3em;
   
   
   
+  }
   
 footer {
 	padding-top: 20px;
