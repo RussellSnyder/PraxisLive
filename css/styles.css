@@ -3,6 +3,9 @@ Author: Russell Snyder
 made for Gabi Terzakis
 HeilPractice
 */
+
+
+/* get rid of white space on right of iphone display */
 html, body {
 	    width: 100%;
     height: 100%;
