@@ -710,6 +710,36 @@ button.navbar-toggle {
 	border: 4px dashed rgba(106, 75, 27, 0.72);
 }  
   
+ 
+/**************/
+/* Aktuelles */
+/**************/
+
+
+
+
+@media (max-width: 770px) {
+.fb-like-box {
+	data-width= 500;
+	data-height=100;
+	}
+}
+
+/*
+@media (max-width: 500px) {
+.item .carousel-caption p {
+	position: relative;
+	margin-top: 70%;}
+}
+
+@media (max-width: 400px) {
+.item .carousel-caption p {
+	position: relative;
+	margin-top: 45%;
+	margin-left: 20px;
+	}
+}
+*/
   
   
   
