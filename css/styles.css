@@ -719,6 +719,7 @@ button.navbar-toggle {
 .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
 
 
+/*
 @media (max-width: 770px) {
 .fb-like-box {
 	data-width= 500;
@@ -727,6 +728,7 @@ button.navbar-toggle {
 	
 	
 }
+*/
 
 /*
 @media (max-width: 500px) {
