@@ -14,15 +14,6 @@ body {
 	
 }
 
-.everything {
-		
-		
-		background: url("../img/handmadepaper_yellow.png") ;
-		
-		background-color: rgba(251, 231, 118, 0.21);
-		
-		width: 100%
-}
 
 h1,h2,h3,h4,h5,h6,p,b,a,li,button {
 	font-family: 'Open Sans', sans-serif;
@@ -45,6 +36,21 @@ h3,h4,h5,h6,p,a,li {
 a {
 }
 
+/* outer containers */
+
+.everything {
+		
+		
+		background: url("../img/handmadepaper_yellow.png") ;
+		
+		background-color: rgba(251, 231, 118, 0.21);
+		
+		width: 100%;
+}
+
+.container {
+	width: 100%;
+}
 
 /* Banner on Top */
 	
@@ -500,7 +506,9 @@ button.navbar-toggle {
 @media (max-width: 400px) {
 .item .carousel-caption p {
 	position: relative;
-	margin-top: 60%;}
+	margin-top: 45%;
+	margin-right: -10px;
+	}
 }
 
 
@@ -709,6 +717,7 @@ footer {
 }
 
 #copyright {
+	margin-left: 1%;
 }
 
 #legal {	
