@@ -8,8 +8,9 @@ HeilPractice
 body {
 	font-family: 'Montserrat', sans-serif;
 	
-	
+	width: 100%;
 
+	overflow-x: hidden;
 	
 }
 
@@ -19,6 +20,8 @@ body {
 		background: url("../img/handmadepaper_yellow.png") ;
 		
 		background-color: rgba(251, 231, 118, 0.21);
+		
+		width: 100%
 }
 
 h1,h2,h3,h4,h5,h6,p,b,a,li,button {
