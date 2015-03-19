@@ -716,6 +716,7 @@ button.navbar-toggle {
 /**************/
 
 .fb-comments, .fb-comments iframe[style] {width: 100% !important;}
+.fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
 
 
 @media (max-width: 770px) {
