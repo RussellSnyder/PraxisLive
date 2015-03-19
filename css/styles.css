@@ -205,7 +205,10 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
 
 .dropdown-menu {
 
-	background: white;
+	background: url('http://api.thumbr.it/whitenoise-361x370.png?background=ba9c1314&noise=e6c163&density=63&opacity=44');
+
+	background-color: white;
+
 }
 
 
@@ -285,21 +288,43 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
     border-bottom-color: #555;
 }
 
+/*
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=f98149bf&noise=edc31a&density=65&opacity=36');
+  font-weight: 600;
+  color: #4972b9;
+*/
 
 
 /* mobile version */
 .navbar-default .navbar-toggle {
-    border-color: #DDD;
+		background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
+	background-repeat: repeat-x;
+	background-color: rgba(245, 208, 87, 0.68);
+
+}
+#menuText a {
+	font-size: 2em;
+	font-weight: 700;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+button.navbar-toggle {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=f98149bf&noise=edc31a&density=65&opacity=36');
 }
+/*
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
+*/
 
 
+/*
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #777;
@@ -309,6 +334,7 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
         color: #333;
     }
 }
+*/
 
 
 /*
@@ -599,6 +625,64 @@ text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
   
   
   }
+  
+  
+  
+/*************/  
+/* Therapie */  
+/*************/  
+
+.therapie {
+	margin-bottom: 25px;
+}  
+  
+.therapie hr {
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
+	background-repeat: repeat-x;
+	background-color: rgba(245, 208, 87, 0.68);
+	
+	height: 5px;
+	}  
+  
+.therapie-guide nav {
+	
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
+	background-repeat: repeat-x;
+	background-color: rgba(245, 208, 87, 0.68);
+
+} 
+/*
+.therapie-guide ul.nav {
+	margin-top: 10px;
+	padding-left: 0%;
+	padding-right: 0%;
+} 
+*/
+
+.therapie-guide li {
+	padding: 0%;
+	margin: 0%;
+	
+} 
+
+
+   
+.spag-gal {
+	background: url('http://api.thumbr.it/whitenoise-361x370.png?background=ba9c1314&noise=e6c163&density=63&opacity=44');
+	
+	margin: 10px;
+	
+	padding: 10px;
+}  
+ 
+.spag-gal img {
+	
+	padding: 5px;
+	border: 4px dashed rgba(106, 75, 27, 0.72);
+}  
+  
+  
+  
   
 footer {
 	padding-top: 20px;
