@@ -715,7 +715,7 @@ button.navbar-toggle {
 /* Aktuelles */
 /**************/
 
-
+.fb-comments, .fb-comments iframe[style] {width: 100% !important;}
 
 
 @media (max-width: 770px) {
@@ -723,6 +723,8 @@ button.navbar-toggle {
 	data-width= 500;
 	data-height=100;
 	}
+	
+	
 }
 
 /*
