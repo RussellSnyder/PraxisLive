@@ -507,7 +507,7 @@ button.navbar-toggle {
 .item .carousel-caption p {
 	position: relative;
 	margin-top: 45%;
-	margin-right: -10px;
+	margin-left: 20px;
 	}
 }
 
