@@ -389,6 +389,8 @@ button.navbar-toggle {
 	border-top-right-radius: 10%;
 	border-top-left-radius: 5%;
 	border-bottom-right-radius: 15%;
+	
+	margin-bottom: 10px;
 
 }
 
@@ -494,6 +496,13 @@ button.navbar-toggle {
 	position: relative;
 	margin-top: 70%;}
 }
+
+@media (max-width: 400px) {
+.item .carousel-caption p {
+	position: relative;
+	margin-top: 85%;}
+}
+
 
 
 
