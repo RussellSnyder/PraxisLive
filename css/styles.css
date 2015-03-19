@@ -1,0 +1,529 @@
+/*
+Author: Russell Snyder
+made for Gabi Terzakis
+HeilPractice
+*/
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	
+
+
+	
+}
+
+.everything {
+		
+		
+		background: url("../img/handmadepaper_yellow.png") ;
+		
+		background-color: rgba(251, 231, 118, 0.21);
+}
+
+h1,h2,h3,h4,h5,h6,p,b,a,li,button {
+	font-family: 'Open Sans', sans-serif;
+	
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	}
+
+h1,h2 {
+	font-weight: 700;
+	
+}
+
+h3,h4,h5,h6,p,a,li {
+		font-weight: 400;
+	}
+
+
+a {
+}
+
+
+/* Banner on Top */
+	
+.topBanner {
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
+	background-repeat: repeat-x;
+	background-color: rgba(245, 208, 87, 0.68);
+	
+padding-bottom: 10px; 
+	
+}
+
+#clockbox {
+	padding-top: 10px;
+	margin-right: 10%;
+	text-align: right;
+	color: white;
+	
+		
+}
+
+.page-header {
+	margin-bottom:30px;
+	
+	text-align: center;
+	
+	display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#name {
+	z-index: 10;
+
+	color: rgba(111, 59, 25, 1);
+	
+	text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
+
+	}
+
+#name b {
+	font-weight: 400;
+	
+	color: #6B9233;
+	
+
+}
+
+#name h2 {
+	margin-left: 10px;
+	
+}
+
+#logo img {
+	height: 150px;
+	width: 150px;
+	
+	margin-top: -120px;
+	margin-left: 120px;
+	z-index: -200;
+
+	background: -webkit-repeating-radial-gradient(rgba(229, 222, 20, 0.83) 67.55%, rgba(230,223,21,0.47) 1.99%, rgba(229,222,20,0.83) 10.6%, rgba(229,187,20,0.83) 16.23%, #e23112 65.19%, rgba(229,173,20,0.13) 60%, rgba(244, 244, 106, 0.19) 100%); 
+	
+	padding: 2px;
+	
+	border-radius: 100%;
+
+}
+
+
+@keyframes slowRotate {
+	0%   {-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    100% {-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+
+@-webkit-keyframes slowRotate {
+	0%   {-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    100% {-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+    }
+
+
+#logo img{
+
+
+
+/*
+    -webkit-transform: translateZ(0);
+
+	-webkit-animation-name: slowRotate;	
+	-webkit-animation-duration: 360s;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-iteration-count: infinite;   
+
+	animation-name: slowRotate;
+	animation-duration: 360s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;   
+*/
+}
+
+
+#slogan h2 {
+	
+	margin-top: 40px;
+	font-style: italic;
+	
+	font-size: 3em;
+
+color: #4972b9;
+
+text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
+
+}
+/* NavBar */
+
+.navbar-brand img{
+	margin-bottom: 0%;
+	margin-top: -20%;
+	background: #6B9233;
+	
+	padding: 3px;
+	
+	border-radius: 100%;
+	
+	border-width: 20px;
+}
+
+/* navbar */
+.navbar-default {
+
+	background: url('http://api.thumbr.it/whitenoise-361x370.png?background=ba9c1314&noise=e6c163&density=63&opacity=44');
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.dropdown-menu {
+
+	background: white;
+}
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #0d4dbb;
+    font-weight: 600;
+    
+	background: rgba(171, 107, 35, .4);
+	
+	border-top-left-radius: 10px;
+	
+
+}
+
+
+/* title */
+/*
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+*/
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #492b09;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #0d4dbb;
+    font-weight: 600;
+    
+	background: rgba(171, 107, 35, .4);
+	
+	border-top-left-radius: 10px;
+	
+	
+
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #4972b9;
+    font-weight: 700;
+
+	background: -webkit-linear-gradient(rgba(255,163,34,0.91) 11.59%, rgba(215,217,106,0.46) 23.51%, rgba(251,251,251,0.91) 50.99%, rgba(215,217,106,0.49) 79.47%, #f1d536 88.08%);
+	border-bottom-right-radius: 1%;
+	
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #6B9233;
+    border-bottom-color: #6B9233;
+    border-top-width: thick;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+
+
+
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+/*
+
+.menuButton, .collapsed {
+	padding: 0%;
+	margin: 0%;
+}
+
+#menuText {
+	float: left;
+	
+	
+	font-size: 1em;
+}
+
+#menuText a{
+
+	color: black;
+
+
+		padding: 0;
+	margin: 0;
+
+}
+
+#menuIcon {
+	float: left;
+	padding-right: 30%;
+}
+*/
+
+
+.welcome-row {
+	margin-top: 12px;
+}
+
+
+#welcome {
+	
+
+	margin-left: 5px;
+	margin-right: -5px;
+
+	background: url("../img/linedpaper.png") repeat;
+	
+	border-top-left-radius: 3%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 5%;
+	border-bottom-right-radius: 15%;
+
+}
+
+
+
+/* CAROUSEL! */
+/* Outer Most */
+.carousel .slide {
+	}
+#myCarousel {
+	background: -webkit-radial-gradient(rgba(88,32,10,0.33) 27.48%, rgba(248, 242, 48, 0.38) 40.99%, rgba(93,38,17,0.33) 73%);
+
+	padding: 5px;
+	
+	border-radius: 15px;
+
+
+	
+	}
+/* Little circles */
+.carousel-indicators {
+		margin-top: 0%;
+		margin-left: -120px; 
+
+		display: none;
+		
+	}
+	
+/* inside of caro */	
+.carousel-inner {
+	margin-left: auto;
+	margin-right: auto;
+	
+	}
+/* photo inside */	
+.item img{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+/* caption */
+
+.item .carousel-caption {
+	width: 80%;
+	height: 100%;
+	
+	margin-top: -60px;
+	
+	margin-left: -55px;
+
+	
+	background: rgba(255, 255, 255, 0);
+
+	
+}
+
+/* title */
+.item .carousel-caption h3 {
+	font-size: 1.5em;		
+	margin-left: 50%;
+	margin-right: -50px;
+
+
+	background: rgba(202, 164, 58, 0.95);
+	padding: 5px;
+	
+	-webkit-border-radius: 10px;
+}	
+/* caption */
+.item .carousel-caption p {
+	position: relative;
+
+	margin-top: 55%;
+	
+
+	text-align: justify;
+	
+	background: rgba(30, 90, 170, 0.95);
+	padding: 5px;
+	
+	-webkit-border-radius: 10px;
+	
+	line-height: 18px;
+	
+	width: 100%;
+
+}
+		
+@media (max-width: 1000px) {
+.item .carousel-caption p {
+	position: relative;
+
+	margin-top: 65%;
+
+}
+}
+
+
+/*     <!-- Left and right controls --> */
+
+.carousel-control {
+	margin-top: 25%;
+	
+	height: 20%;
+	width: 10%;
+	}
+
+.left .carousel-control {	
+	
+}
+
+.glyphicon {
+	margin-bottom: auto;
+	margin-top: auto;
+	
+}
+
+.glyphicon .glyphicon-chevron-left {
+	width: 20px;
+}
+
+
+/* Panels */
+
+.panel-body {
+	background: url("../img/tree_bark.png");
+}
+
+.panel-body p {
+	text-align: left;
+}
+
+.panel-body img {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #422e05;
+	
+	width: 40%;
+}
+
+.panel-body .btn {
+	margin-left: 30%;
+}
+  
+  
+  
+  
+footer {
+	padding-top: 20px;
+	width: 100%;	
+
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=f98149bf&noise=edc31a&density=65&opacity=36');
+	background-repeat: repeat-x;
+	background-color: rgba(245, 208, 87, 0.68);
+
+}
+
+#copyright {
+	margin-top: 10px;
+}
+
+#legal {	
+	display: inline;
+	clear:right;
+}
+
+#legal p {
+
+	width: 50%;
+	margin: 0;
+	padding-bottom: 0px;
+	font-size: 12px;
+	line-height: 12px;
+	
+}
+
+#credits {
+	float:right;	
+	display: inline;
+	
+}
+
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
