@@ -715,8 +715,11 @@ button.navbar-toggle {
 /* Aktuelles */
 /**************/
 
-.fb-comments, .fb-comments iframe[style] {width: 100% !important;}
-.fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+/*
+.fb-comments, .fb-comments iframe[style], .fb-comments span[style] {width: 100% !important;}
+
+.fb-like-box, .fb-like-box iframe[style], .fb-like-box span[style] {width: 100% !important;}
+*/
 
 
 /*
