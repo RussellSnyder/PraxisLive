@@ -726,6 +726,14 @@ button.navbar-toggle {
 	padding-bottom: 20px;
 }
 
+/**************/
+/* Aubildung */
+/**************/
+
+#peace {
+	border: 5px double rgba(106, 187, 245, 0.29);
+	border-radius: 5%;
+}
  
 /**************/
 /* Aktuelles */
@@ -738,34 +746,35 @@ button.navbar-toggle {
 
 
 
-/*
-@media (max-width: 770px) {
-.fb-like-box {
-	data-width= 500;
-	data-height=100;
-	}
-	
-	
-}
-*/
+/**************/
+/* Kontact */
+/**************/
+  
 
-/*
-@media (max-width: 500px) {
-.item .carousel-caption p {
-	position: relative;
-	margin-top: 70%;}
+
+.kontact .header {
+font-size: 32px;
+color: #4972b9;
 }
 
-@media (max-width: 400px) {
-.item .carousel-caption p {
-	position: relative;
-	margin-top: 45%;
-	margin-left: 20px;
-	}
+
+  
+.kontact form {
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
+	background-repeat: repeat-x;
+	background-color: rgba(245, 208, 87, 0.68);
+
+	padding: 0px;
+		
+	margin: 10px 0px;
+	border-radius: 15px;
+
 }
-*/
-  
-  
+
+.kontact .form-group {
+	margin-left: 5%;
+	margin-right: 5%;
+}
   
 footer {
 	padding-top: 20px;
