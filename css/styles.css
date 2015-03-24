@@ -709,7 +709,23 @@ button.navbar-toggle {
 	padding: 5px;
 	border: 4px dashed rgba(106, 75, 27, 0.72);
 }  
-  
+ 
+/**************/
+/* Praxis */
+/**************/
+ 
+ @media (min-width: 770px) {
+
+ .praxis-guide {
+	 margin-top: 40px;
+ }
+ }
+
+.locationAndPhotos  {
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
  
 /**************/
 /* Aktuelles */
