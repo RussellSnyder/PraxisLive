@@ -45,6 +45,15 @@ h3,h4,h5,h6,p,a,li {
 a {
 }
 
+hr {
+	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
+	background-repeat: repeat-x;
+	background-color: rgba(245, 208, 87, 0.68);
+	
+	height: 5px;
+	}  
+
+
 /* outer containers */
 
 .everything {
@@ -137,17 +146,32 @@ padding-bottom: 10px;
 	padding: 1%;
 	
 	border-radius: 100%;
-
 }
+
+#slogan h2 {
+	
+	margin-top: 20px;
+	font-style: italic;
+	
+	font-size: 3em;
+
+color: #4972b9;
+
+text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
+
+	margin-left: 15%;
+}
+
 
 @media (max-width: 750px) {
 	#logo img {	margin-top: -80px;
 				margin-left: 0%;
 				width: 100px;}
 }
-@media (min-width: 1000px) /* medium  */{
+@media (min-width: 992px) /* medium  */{
 	#logo img {	margin-top: -40%;
 				margin-left: -10%;}
+	
 }
 @media (min-width: 1200px) /* large */ {
 	#logo img {	margin-top: -35%;
@@ -156,6 +180,7 @@ padding-bottom: 10px;
 }
 
 
+/*
 @keyframes slowRotate {
 	0%   {-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
     100% {-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
@@ -165,6 +190,7 @@ padding-bottom: 10px;
 	0%   {-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
     100% {-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
     }
+*/
 
 
 #logo img{
@@ -187,18 +213,6 @@ padding-bottom: 10px;
 }
 
 
-#slogan h2 {
-	
-	margin-top: 20px;
-	font-style: italic;
-	
-	font-size: 3em;
-
-color: #4972b9;
-
-text-shadow: -3px 3px 3px rgba(108, 108, 11, 0.36);
-
-}
 /* NavBar */
 
 .navbar-brand img{
@@ -664,15 +678,7 @@ button.navbar-toggle {
 .therapie {
 	margin-bottom: 25px;
 }  
-  
-.therapie hr {
-	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
-	background-repeat: repeat-x;
-	background-color: rgba(245, 208, 87, 0.68);
-	
-	height: 5px;
-	}  
-  
+    
 .therapie-guide nav {
 	
 	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
@@ -747,19 +753,19 @@ button.navbar-toggle {
 
 
 /**************/
-/* Kontact */
+/* Kontakt */
 /**************/
   
 
 
-.kontact .header {
+.kontakt .header {
 font-size: 32px;
 color: #4972b9;
 }
 
 
   
-.kontact form {
+.kontakt form {
 	background: url('  http://api.thumbr.it/whitenoise-361x370.png?background=eeac5a&noise=edc31a&density=65&opacity=36');
 	background-repeat: repeat-x;
 	background-color: rgba(245, 208, 87, 0.68);
@@ -771,9 +777,18 @@ color: #4972b9;
 
 }
 
-.kontact .form-group {
+.kontakt .form-group {
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+.KontaktInfo {
+	margin-top: 15px;
+}
+
+.KontaktInfo h4 {
+	line-height: 25px;
+	padding-bottom: 10px;
 }
   
 footer {
